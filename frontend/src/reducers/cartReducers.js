@@ -1,4 +1,3 @@
-import React from 'react'
 import { CART_ADD_ITEM, CART_REMOVE_ITEM } from '../constants/cartConstants'
 
 export const cartReducers = (state = {cartItems: []}, action) => {
