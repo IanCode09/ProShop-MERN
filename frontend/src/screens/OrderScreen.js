@@ -10,7 +10,7 @@ import { createOrder } from '../actions/orderAction'
 const PlaceOrderScreen = ({ history }) => {
     const dispatch = useDispatch()
 
-    const cart = useSelector((state) => state.cart)
+    const cart = useSelector(state => state.cart)
 
     const addDecimals = (num) => {
         return (Math.round(num * 100) / 100).toFixed(2)
